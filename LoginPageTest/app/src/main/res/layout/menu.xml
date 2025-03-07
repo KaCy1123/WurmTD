@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context=".Main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Play"
+            android:textSize="40sp"
+            android:textColor="#00ffff"
+            android:backgroundTint="@color/white"
+            android:padding="16dp"
+            android:id="@+id/play_btn"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="34dp"
+            android:text="Shop"
+            android:textSize="40sp"
+            android:textColor="#00ffff"
+            android:backgroundTint="@color/white"
+            android:padding="16dp"
+            android:id="@+id/shop_btn"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="34dp"
+            android:text="Settings"
+            android:textSize="40sp"
+            android:textColor="#00ffff"
+            android:backgroundTint="@color/white"
+            android:padding="16dp"
+            android:id="@+id/settings_btn"
+            />
+
+    </LinearLayout>
+</RelativeLayout>
